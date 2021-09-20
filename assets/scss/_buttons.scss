@@ -1,0 +1,191 @@
+.btn-action{
+    background-color:rgba($white, .2);
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #fff !important;
+    span.icon-svg{       
+        display: block;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+           max-height: 22px;
+           max-width: 20px;
+        }
+    }
+    &:hover, &:active, &:focus{
+        background-color: rgba($white, .3);
+        box-shadow: none;
+        transition: all .1s ease;       
+    } 
+}
+.btn-like{
+    background-color: $yellow;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($yellow, 10);
+        box-shadow: none;
+       
+    }   
+    span.icon-like{
+        background-image: url('./assets/img/icon_like.svg');
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-active{
+    background-color: $green;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($green, 10);
+        box-shadow: none;       
+    }   
+    span.icon-active{
+        background-image: url('./assets/img/icon-light.svg');
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-dislike{
+    background-color:$brown;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($brown, 10);
+        box-shadow: none;
+       
+    }   
+    span.icon-dislike{
+        background-image: url('./assets/img/icon_dislike.svg');
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-dislike{
+    background-color:$brown;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($brown, 10);
+        box-shadow: none;
+       
+    }   
+    span.icon-dislike{      
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-removed{
+    background-color:$brown;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($brown, 10);
+        box-shadow: none;
+       
+    }   
+    span.icon-removed{      
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-solar{
+    background-color:$brown;
+    height: 45px;
+    width: 45px;
+    &:hover, &:active, &:focus{
+        background-color: lighten($brown, 10);
+        box-shadow: none;
+       
+    }   
+    span.icon-solar{       
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+.btn-gary{
+    background-color:$gray-500;
+    border-radius: $border-radius;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s ease;    
+    span.icon-svg{       
+        display: block;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: contents;
+        img{
+           max-height: 22px;
+        }
+    }
+    &:hover, &:active, &:focus{
+        background-color: lighten($gray-500, 10);
+        box-shadow: none;
+        transition: all .1s ease;       
+    }  
+    &.btn-yellow{
+        background-color:$base-yellow;
+        &:hover, &:active, &:focus{
+        background-color: lighten($base-yellow, 10);   
+        }
+    }  
+    &.btn-green{
+        background-color:$green;
+        &:hover, &:active, &:focus{
+        background-color: lighten($green, 10);   
+        }
+    } 
+    &.btn-brown{
+        background-color:$brown;
+        &:hover, &:active, &:focus{
+        background-color: lighten($brown, 10);   
+        }
+    } 
+    &.btn-red{
+        background-color:$red;
+        &:hover, &:active, &:focus{
+        background-color: lighten($red, 10);   
+        }
+    }
+    &.btn-orange{
+        background-color:$orange;
+        &:hover, &:active, &:focus{
+        background-color: lighten($orange, 10);   
+        }
+    }
+}
+
+.active-btn{
+   .btn-gary{
+    background-color:$base-yellow;    
+   } 
+   color: $base-yellow;
+}
+

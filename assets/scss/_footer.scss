@@ -1,0 +1,26 @@
+.section_footer{
+    position: absolute;
+    left: 20px;
+    bottom:20px ;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    @media screen and(max-width:767px){
+        left: 5px;
+        bottom:5px ;
+        .mr-3, .mx-3 {
+            margin-right: 0.4rem!important;
+        }
+    }
+
+
+    .location_add{
+        border-radius: $border-radius;
+        background-color: $gray-400;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 120px;
+        height: 45px;
+    }
+}

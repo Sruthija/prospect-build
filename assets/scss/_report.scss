@@ -1,0 +1,209 @@
+.report {
+  .left-box {
+    background-color: #10838b;
+    // max-width: 420px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    height: 100vh;
+
+    .left-scroll {
+      height: 100%;
+      overflow-y: scroll;
+    }
+    .user-badge {
+      background: $yellow;
+      color: $white;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      line-height: 16px;
+      margin-right: 10px;
+    }
+  }
+  .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color: $white !important;
+  }
+  .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color: $base-yellow !important;
+  }
+  .listmsg-hove {
+    transition: all 0.8s;
+    cursor: pointer;
+    &:hover {
+      background: $gray-line;
+      transition: all 0.8s;
+    }
+  }
+  .list-card {
+    background-color: #10838b !important;
+    min-width: 760px;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      min-width: inherit;
+    }
+  }
+  .right-box {
+    position: absolute;
+    background: #10838B;
+    top: 0px;
+    right: 15px;
+    box-shadow: 0px 0px 12px 1px $base-gray;
+    border-radius: 0px 0px 16px 16px;
+    max-width: 900px;
+    z-index: 1;
+    margin-left: 15px;
+  }
+  .off-text {
+    color: $gray-200;
+  }
+  .location-badge {
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    .in-box {
+      position: absolute;
+      background: $base-yellow;
+      top: -122px;
+      padding: 10px;
+      border-radius: 8px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      display: none;
+      height: 110px;
+
+      &::after {
+        content: " ";
+        background: url(././assets/img/arrow_dw.png) no-repeat;
+        width: 17px;
+        height: 17px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: -27px;
+      }
+    }
+    &:hover {
+      .in-box {
+        position: absolute;
+        bottom: 0;
+        display: block;
+      }
+    }
+  }
+}
+.secondary-text {
+  color: #10838b !important;
+}
+
+.user-background {
+  background:#10838b;
+}
+.black-card {
+  background: #10838b;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 12px;
+  transition: all 0.8s;
+
+  &:hover {
+    background: $black;
+    transition: all 0.8s;
+  }
+  .icon-box {
+    width: 45px;
+    height: 45px;
+    background: $gray-600;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h6 {
+    color: $yellow;
+    margin-left: 20px;
+  }
+  .notification {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    color: $black-800;
+    font-size: 14px;
+    background: $yellow;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+  }
+}
+
+.tab-common {
+  .mat-tab-label {
+    min-width: 60px;
+  }
+  .mat-ink-bar {
+    opacity: 0;
+  }
+  .mat-tab-header,
+  .mat-tab-nav-bar {
+    border: none;
+  }
+  .mat-tab-list {
+    border-bottom: 1px solid $gray-default;
+  }
+
+  .mat-tab-label {
+    opacity: 1 !important;
+    .mat-tab-label-content {
+      color: $white;
+      font-family: $type-1;
+      svg {
+        fill: $white !important;
+        stroke: $white !important;
+      }
+    }
+    &.mat-tab-label-active {
+      color: $base-yellow;
+      border-bottom: 1px solid $base-yellow;
+      .mat-tab-label-content {
+        color: $base-yellow;
+        svg {
+          fill: $base-yellow !important;
+          stroke: $base-yellow !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .report {
+    .mapboxgl-canvas {
+      position: inherit !important;
+      width: auto !important;
+      height: 100vh !important;
+    }
+  }
+}
+
+// }
+// @media screen and (max-width:767px){
+//     .report{
+//         .mapboxgl-canvas{
+//             position: inherit !important;
+//             width: auto !important;
+//            height: 100% !important;
+//         }
+//     }
+// }
+
+// @media screen and (min-device-width: 568px) and (max-device-width: 1824px) and (orientation : landscape){
+//     .report{
+//         .mapboxgl-canvas{
+//             position: inherit !important;
+//             width: auto !important;
+//             height: fit-content !important;
+//         }
+//     }
+// }

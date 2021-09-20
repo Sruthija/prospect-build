@@ -1,0 +1,104 @@
+$blue: #35b0ff;
+$indigo: #7460ee;
+$purple: #857bff;
+$pink: #e91e63;
+$red: #cf342f;
+$orange: #f29324;
+$yellow: #18bcc8;
+$green: #2bb673;
+$teal: #58d8a3;
+$cyan: #17a2bb;
+$black: #000;
+$white: #ffffff;
+$white-smoke: #f4f4f4;
+$ghost-white: #f7fafc;
+$violet: #41478a;
+$darkslategray: #2e383e;
+$dodger-blue: #3498db;
+$brown: #c08459;
+$blue-teal-gradient: linear-gradient(88deg, #1345b7, #05bdfd);
+$base-yellow: #18BCC8;
+$base-gray: #3b3b3c;
+$gray-10: #fbfbfb;
+$gray-600: #5b5b5b;
+
+$gray-default: #808080;
+$gray-line: #7b7b7b;
+
+$gray-400: #606060;
+$gray-500: #93C1C4;
+$gray-200: #c2c2c2;
+$gray-100: #727272;
+$black-800: #3b3a3c;
+
+$theme-colors: (
+  primary: $base-gray,
+  secondary: $base-yellow,
+  success: $green,
+  info: $base-yellow,
+  warning: $yellow,
+  danger: $red,
+  light: #f3f5f6,
+  dark: #354168,
+  teal: $teal,
+);
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  white-smoke: #f3f5f6,
+  gray: $gray-600,
+  gray-light: #8ba2b5,
+  gray-lightest: #f7f7f9,
+  gray-dark: #292b2c,
+);
+
+$content-bg: #f3f3f3;
+$footer-bg: $content-bg;
+$footer-color: color(dark);
+$border-color: lighten($base-gray, 60);
+$small-radius: 5px;
+$border-radius: 15px;
+$button-radius: 20px;
+$radius: 25px;
+
+$social-colors: (
+  twitter: #1da1f2,
+  facebook: #3b579d,
+  google: #dc4a38,
+  linkedin: #0177b4,
+  pinterest: #cc2127,
+  youtube: #e52d27,
+  github: #333333,
+  behance: #1769ff,
+  dribbble: #ea4c89,
+  reddit: #ff4500,
+);
+
+$type-1: "rubikregular";
+$type-1-italic: "rubikitalic";
+$type-1-light: "rubik_lightregular";
+$type-1-light-italic: "rubik_lightitalic";
+$type-1-medium: "rubik_mediumregular";
+$type-1-medium-italic: "rubik_mediumitalic";
+$type-1-bold: "rubikbold";
+
+$type-2: "CocogoosePro-Light";
+$type-2-bold: "CocogoosePro-Light";
+
+$default-font-size: 0.8rem;
+$text-muted: #9c9c9c;
+$body-color: #212529;
+
+:root {
+  font-family: $type-1 !important;
+}

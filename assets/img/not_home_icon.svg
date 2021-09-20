@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.452" height="21.829" viewBox="0 0 22.452 21.829">
+  <g id="Group_995" data-name="Group 995" transform="translate(-484.942 -802.25)">
+    <g id="ic_ntc" transform="translate(486 803)">
+      <path id="Path_774" data-name="Path 774" d="M15.3,27.38" transform="translate(-5.803 -13.968)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_775" data-name="Path 775" d="M1.46,665.476l9.986-8.576,9.986,8.576" transform="translate(-1.46 -656.9)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_777" data-name="Path 777" d="M24.457,663.455V657.9H20.27v2" transform="translate(-7.144 -657.202)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Path_895" data-name="Path 895" d="M6981.25,1377.011v9.97s.185.772.879.8,7.078,0,7.078,0a.425.425,0,0,0,.37-.5c-.033-.468-.576-.4-.576-.4h-6.872l.044-9.872a.466.466,0,0,0-.49-.337A.459.459,0,0,0,6981.25,1377.011Z" transform="translate(-6493.372 -563.972)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <g id="Group_984" data-name="Group 984" transform="translate(495.087 811.713)">
+      <g id="Ellipse_5" data-name="Ellipse 5" fill="none" stroke="#fff" stroke-width="1.5">
+        <circle cx="6.154" cy="6.154" r="6.154" stroke="none"/>
+        <circle cx="6.154" cy="6.154" r="5.404" fill="none"/>
+      </g>
+      <line id="Line_58" data-name="Line 58" y1="7.524" x2="7.698" transform="translate(2.283 2.457)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

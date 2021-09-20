@@ -1,0 +1,186 @@
+.search-box{
+    position: absolute;
+    background:rgba(#10838B,  .85);
+    top: 60px;
+    right: 40px;
+    box-shadow: 0px 0px 12px 1px $base-gray;
+    border-radius: 0px 0px 16px 16px;
+    max-width: 390px;
+
+    @media screen and(max-width:500px){
+        max-width: 85%;
+        right: 0;
+    }
+    
+    .mat-tab-label {
+        min-width: 130px;
+        @media screen and(max-width:500px){
+            min-width: 60px;
+        }
+    }
+    .mat-ink-bar{
+        opacity: 0;
+    }
+    .mat-tab-header, .mat-tab-nav-bar{
+        border: none;
+    }
+    .mat-tab-body{
+        margin-top: 75px;
+    }
+    .form-search{
+        position: absolute;
+        top: 65px;
+        padding:0rem 1.2rem 1.2rem 1.2rem;
+        width: 100%;
+    }
+    .mat-tab-label{
+        opacity: 1 !important;
+        .mat-tab-label-content{
+            color: $white;
+            font-family: $type-1;
+            svg{
+            fill: $white!important;
+            stroke: $white!important; 
+            }
+        }
+        &.mat-tab-label-active{
+            color: $base-yellow;
+            .mat-tab-label-content{
+                color: $base-yellow;
+                svg{
+                fill: $base-yellow!important;
+                stroke: $base-yellow!important;
+                }
+            }
+        }
+    }
+    .location-icon{
+        position: absolute;
+        right: 30px;
+        top: 11px;
+        padding-left: 5px;
+        cursor: pointer;
+    }
+    .form-default{
+        padding-right: 35px;
+    }
+}
+.df-list{
+    padding:15px 0px 0px 25px;
+
+    li{
+        font-size: 1rem;
+        font-family: $type-1;
+        color: $white;
+        padding: .4rem 0rem;
+        list-style: none;
+
+        span{
+            font-size: .7rem;
+            display: block;
+            padding-left:9px;
+        }
+       &::before{
+        content: '';
+        width:10px;
+        height:10px;
+        background: $base-yellow;
+        display:-webkit-inline-box;
+        border-radius: 4px;
+        margin-left: -17px;
+        margin-right: 14px;
+       } 
+    }
+   
+}
+
+// .mat-tab-label-active{
+// .mat-tab-label-content{
+//     color: $base-yellow;
+
+// }
+ 
+// }
+
+.select-add{
+    background-color: #fff;
+    opacity: .7;
+    border: 1px solid #fff;
+    color: #000;
+    height: 50px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0px 15px;
+    font-size: 16px;
+    float: right;
+}
+.content-box{
+    height: 500px;
+}
+
+.my-card{
+    background-color: #18BCC8 !important;
+    min-width: 380px;
+ 
+    @media screen and (max-width:414px){
+        min-width: 280px;
+    }
+    .badge {
+        border-radius: 3px 0px 0px 3px;
+        padding: 10px;
+    }
+    color: rgba( $white,.5);
+
+    h5{
+        font-family: $type-2 !important;
+    }
+    h6{
+        font-family: $type-2 !important;
+    }
+    p{
+        font-family: $type-2 !important;
+    }
+
+}
+.link-text{
+    color: $base-yellow;
+    font-size: 17px;
+
+    &:hover{
+        color: $base-yellow;
+
+    }
+}
+.icon_set{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+.custom-tab{
+    border: none;
+    li{
+        li{
+            color: $base-yellow;
+        }
+       
+    }
+    a{
+        color: $white;       
+         border-bottom:none!important;
+        // border-bottom: 3px solid  transparent !important;
+
+        &.active{
+            color: $base-yellow !important;
+            background: transparent  !important;
+            border: none;
+            border-bottom: 3px solid  $base-yellow !important;
+        }
+
+        &:hover{
+            color: $base-yellow !important;
+            background: transparent  !important;
+            border: none;
+        }
+    }
+
+}

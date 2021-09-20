@@ -1,0 +1,57 @@
+.profile-pic-holder{
+    background: $yellow;
+    color: $white;
+    
+}
+.profile-thumb{
+    width: 95px;
+    height: 95px;
+    margin: 0 auto -42px auto;
+    border-radius: $radius;
+}
+.profile-info{
+    padding-top: 52px;
+    text-align: center;
+    color: $white;
+    p, h5{
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+    }
+}
+
+.user-thumb{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    img{
+        border-radius: 12px;        
+        width: 56px;
+        height: 56px;
+        margin-bottom: 4px;
+    }  
+&.active-user{
+   img{
+    border: 2px solid $green;
+   }
+}
+}
+.active-title{
+    background-color: $green;
+    color: $white;
+}
+.title-icon{
+    width: 40px;
+}
+.sub-title{
+    background-color:rgba($white, .2);    
+}
+.stat-text{
+    font-size: 13px;
+    color: $gray-200;
+    span{
+        color: $white;
+        font-size: 18px;
+    }
+}

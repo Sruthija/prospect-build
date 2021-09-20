@@ -1,0 +1,297 @@
+html,
+body {
+  height: 100%;
+}
+.map-bg {
+  background-image: url(/assets/img/mapbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $base-gray;
+  height: 100vh;
+}
+.page-wrapper {
+  background-color: $gray-10;
+  // height: 100vh;
+  // margin-top: 61px;
+  height: 100%;
+}
+.drawer-container {
+  height: calc(100% - 61px);
+}
+.logo-prospect {
+  @media screen and (max-width: 767px) {
+    width: 125px;
+  }
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-nav {
+  width: 407px;
+  box-shadow: none !important;
+  background-color: #10838b;
+  border-top: 1px solid rgba($gray-10, 0.05);
+  color: $gray-10;
+
+  @media screen and (max-width: 420px) {
+    width: 100%;
+  }
+}
+.login-box {
+  border-radius: $border-radius;
+  padding: 30px;
+  background-color: rgba(16, 131, 139, 0.6);
+  max-width: 370px;
+  @media screen and (max-width: 375px) {
+    max-width: 300px;
+  }
+}
+.login_input {
+  color: $white;
+  &::placeholder {
+    color: #7eaeb6;
+  }
+}
+.login-form-wrapper {
+  min-width: 300px;
+  color: $white !important;
+  @media screen and (max-width: 375px) {
+    min-width: 240px;
+    padding: 0px;
+  }
+}
+.bottom-border {
+  border-bottom: 1px solid #9f9f9f;
+}
+
+.text-d {
+  color: rgba($white, 0.66);
+}
+.text-12 {
+  font-size: 12px;
+}
+.status-add {
+  .user-thumb {
+    position: relative;
+    width: 56px;
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 54px;
+      text-align: center;
+    }
+  }
+  .user-close {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: $red;
+    position: absolute;
+    bottom: 19px;
+    right: -7px;
+    color: $white;
+    i {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      line-height: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  .user-close.add {
+    background: $green;
+  }
+}
+
+.admin_bg {
+  background-color: $ghost-white;
+  border-radius: 6px;
+  font-size: 15px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 40px;
+  }
+}
+
+.main_admin {
+  height: 97%;
+  min-height: 97%;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 767px) {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .box {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 36px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 600px) {
+      padding: 10px;
+    }
+  }
+
+  .box-1 {
+    height: 60px;
+    background-color: #10838B;
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  .box-2 {
+    background-color: $base-yellow;
+    color: $black;
+  }
+
+  .box-3 {
+    flex: 1;
+    background-color: $ghost-white;
+    color: $black;
+  }
+}
+
+.btn-add {
+  background-color: $base-yellow;
+  border-radius: 12px;
+  border: none;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  color: #fff;
+  outline: none;
+}
+
+.btn-gray {
+  background-color: $gray-100;
+  border-radius: 12px;
+  border: none;
+  height: 35px;
+  width: 35px;
+  outline: none;
+  color: $white;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.form_filter {
+  background-color: #fff;
+  border: none;
+  color: #000;
+}
+
+.dwn_button {
+  width: 100%;
+  background-color: $black-800;
+  color: $ghost-white;
+  height: auto;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 39px;
+}
+
+.bglight {
+  background-color: #ffd757;
+  color: $black;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.nos {
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.nossml {
+  font-size: 13px;
+  float: left;
+  line-height: 15px;
+  text-align: left;
+}
+.mainnos {
+  font-size: 30px;
+  float: left;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+.thumbimg {
+  width: 45px;
+  border-radius: 17px;
+}
+
+.lh46 {
+  line-height: 46px;
+}
+
+.vhstyle {
+  td {
+    vertical-align: middle;
+    text-align: left;
+    white-space: nowrap;
+  }
+  th {
+    vertical-align: middle;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
+.actv {
+  background-color: $green;
+  border-radius: 80px;
+  color: $ghost-white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.colorwht {
+  color: $ghost-white;
+}
+
+.whitebutton {
+  background-color: $ghost-white;
+  color: $black-800;
+}
+
+.uploadoutline {
+  border: 1px dashed;
+  border-color: $ghost-white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.we3 {
+  width: 360px;
+  @media screen and (max-width: 980px) {
+    width: 100%;
+  }
+}
+
+.cropimg {
+  width: 120px;
+  border-radius: 40px;
+}
+.cropimgsml {
+  width: 50px;
+}
+
+pagination-controls {
+  ul {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,208 @@
+// model strat
+.mat-dialog-container{
+    padding: 0px !important;
+}
+.cdk-overlay-dark-backdrop{
+    background: transparent !important;
+}
+.cdk-overlay-pane{
+    @media screen and (max-width:767px){
+        overflow: scroll !important;
+        max-width: 100vw !important;
+    }
+}
+.mat-dialog-container{
+    // background-color: $base-gray;
+    background:rgba($base-gray, .83);
+
+}
+.model-style{
+    max-width: 900px;
+    @media screen and (max-width:767px){
+        margin: 55px 0px;
+    }
+    .title-text{
+        font-size: 1rem;
+        color: $white;
+        font-weight: 500;
+    }
+    .sub-title{
+        font-size: .8rem;
+        color: rgba($white, .55);
+        font-weight: 500;
+        font-weight: 400;
+    }
+    .close-btn{
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        background: #ADC9C9;
+        border-radius: 12px;
+        border: none;
+        vertical-align: text-bottom;
+        img{
+            margin-top: -2px;
+        }
+    }
+    .location-hed{
+        color: $white;
+        font-weight: inherit;
+        white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+    }
+    .mat-datepicker-toggle, .ngx-material-timepicker-toggle{
+        color: $white !important;
+        position: absolute;
+        top: 6px;
+        right: 20px;
+    }
+    .form-default{
+        position: relative;
+    }
+    .mat-stepper-horizontal{
+        background: transparent;
+    }
+    .mat-horizontal-content-container{
+        padding: 0px;
+    }
+
+    .mat-horizontal-stepper-header .mat-step-icon {
+        margin-right: 0;
+        flex: none;
+    }
+    
+    .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+        background-color: $base-yellow !important;
+        color: $white;
+    }
+    .mat-step-header .mat-step-icon {
+        background-color: rgba(0,0,0,.54);
+        color: #fff;
+    }
+    .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+        background-color: #3f51b5;
+        color: #fff;
+    }
+    .mat-step-header .mat-step-icon {
+        background-color: rgba(0,0,0,.54);
+        color: #fff;
+        border-radius: inherit;
+    }
+    .mat-step-icon {
+        height: 4px;
+        width: 100%;
+    }
+    .mat-step-header {
+        padding: 0;
+        width: 24%;
+    }
+    .mat-step-icon-content{
+        opacity: 0;
+    }
+    .mat-stepper-horizontal-line{
+        opacity: 0;
+    }
+    .mat-horizontal-stepper-header{
+        height: 48px;
+    }
+    label{
+        color: $white;
+        font-family: $type-1;
+    }
+    .submit-footer{
+        h4, h5{
+            color: $white;
+            font-weight: normal;
+            font-family: $type-1;
+        }
+        p{
+            color: rgba($white, .55);
+            font-family: $type-1;
+
+        }
+    }
+
+
+
+    .dropify-wrapper {
+        border: 2px dashed #d4d4d5;
+        border-radius: 7px;
+    }
+    .dropify-wrapper {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        height: 240px;
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #777;
+        background-color:transparent;
+        background-image: none;
+        text-align: center;
+        border: 2px dashed  rgba($white, .55);
+        -webkit-transition: border-color .15s linear;
+        transition: border-color .15s linear;
+        input {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            cursor: pointer;
+            z-index: 5;
+        }
+        .dropify-clear {
+            background: red;
+            border: none;
+            font-weight: 700;
+            color: #6c757d;
+        }
+        .dropify-message {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            p{
+                color: rgba($white, .55);
+                font-family: $type-1;
+            }
+
+        }
+        .dropify-errors-container {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 3;
+            background: red;
+            text-align: left;
+            visibility: hidden;
+            opacity: 0;
+            -webkit-transition: visibility 0s linear .15s,opacity .15s linear;
+            transition: visibility 0s linear .15s,opacity .15s linear;
+        }
+       
+    }
+    .alert{
+        border-bottom:1px solid  rgba($white, .55);
+        color: $white;
+        font-family: $type-1;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .close{
+        opacity: 1;
+    }
+
+}
+// model end

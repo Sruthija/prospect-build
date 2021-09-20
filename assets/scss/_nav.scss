@@ -1,0 +1,129 @@
+.prospect-nav{
+    background-color: $base-yellow !important;
+    margin: 0;
+    display: flex;
+    @media screen and (max-width:480px){
+     flex-direction: column; 
+     padding: 0 !important;
+     padding-top: .5rem;     
+     .sm-seprator{
+         width: 100%;
+         padding:.5rem 1rem; 
+         border-top: 1px solid rgba($white, .05) !important;
+         margin-top: .5rem;
+     }
+     .navbar-brand{
+        align-self: flex-start;       
+        margin-top: .5rem;      
+        img{
+            width: 75%;
+            margin-left: 1rem;
+          
+        }
+     }
+    }
+}
+.custom-navbar{
+    flex-wrap: inherit;
+    img{
+        width: 90% !important;
+    }
+}
+.prospect-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+
+   
+    .nav-item{
+        display: flex;
+        align-items: center;
+        a.nav-link{
+            color: $white;
+        &.nav-solar{
+            border: 1px solid $white;
+            border-radius: 8px;
+        }
+        
+        }
+        a.nav-icon{
+            width: 20px;
+            height: 20px;           
+            display: block;
+        }
+    }
+    @media screen and (max-width:480px) {
+        width: 100%;  
+        min-width: inherit;    
+       
+        .nav-item{                    
+            a.nav-link{
+                .user-name{
+                    display: none;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:320px) {
+        min-width: 290px; 
+
+    }
+}
+.icon-settings{
+    background-image: url('/assets/img/ic_settings.svg');
+    background-size: 100%;    
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;   
+ }
+ .icon-notification{
+    background-image: url('/assets/img/notification.png');
+    background-size: 100%;    
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 20px;   
+ }
+ .notification-count{
+     position: relative;
+     .count{
+        width: 16px;
+        height: 16px;
+        border-radius: 20px;
+        position: absolute;
+        right: -9px;
+        top: 9px;
+        background: #f36161;
+        color: $white;
+        font-size: 12px;
+    text-align: center;
+     }
+ }
+ .icon-solar{
+    background-image: url('./assets/img/ic_solar.svg');
+    background-size: 100%; 
+    display: inline-block;   
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;   
+ }
+ .user-thumb-35{
+     width: 35px;
+     height: 35px;
+     border-radius: 8px;
+ }
+ .user-thumb-55{
+    width: 55px;
+    height: 55px;
+    border-radius:18px;
+}
+.nav_salesM{
+    background-color: $yellow !important;
+}

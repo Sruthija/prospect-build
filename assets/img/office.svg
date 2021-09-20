@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.034" height="31.8" viewBox="0 0 32.034 31.8">
+  <g id="office_management" data-name="office management" transform="translate(0.25 0.073)">
+    <path id="Path_908" data-name="Path 908" d="M14.157,9.09l11.576,2.3A1.941,1.941,0,0,1,27.3,13.308v13.4a1.968,1.968,0,0,1-1.971,1.971H13.5a.651.651,0,0,0,.657-.657v-.657H25.325a.659.659,0,0,0,.657-.657v-13.4a.66.66,0,0,0-.512-.644L14.157,10.43Z" transform="translate(4.238 2.797)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_909" data-name="Path 909" d="M20.285,14a.657.657,0,0,1,0,1.314H17.657a.657.657,0,0,1,0-1.314Z" transform="translate(5.337 4.338)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_910" data-name="Path 910" d="M20.285,17a.657.657,0,0,1,0,1.314H17.657a.657.657,0,0,1,0-1.314Z" transform="translate(5.337 5.28)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_911" data-name="Path 911" d="M20.285,20a.657.657,0,0,1,0,1.314H17.657a.657.657,0,1,1,0-1.314Z" transform="translate(5.337 6.222)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_912" data-name="Path 912" d="M14.314,28.052a.657.657,0,0,1-1.314,0V9.657a.7.7,0,0,1,.237-.512.691.691,0,0,1,.552-.131l.526.105V28.052Z" transform="translate(4.081 2.769)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_913" data-name="Path 913" d="M14.1,23v.657a.651.651,0,0,0,.657.657H9.5a.651.651,0,0,0,.657-.657V23Z" transform="translate(2.982 7.164)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_914" data-name="Path 914" d="M11.285,5a.657.657,0,1,1,0,1.314H8.657A.657.657,0,1,1,8.657,5Z" transform="translate(2.511 1.513)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_915" data-name="Path 915" d="M11.942,8.657a.651.651,0,0,1-.657.657H8.657A.657.657,0,0,1,8.657,8h2.628A.651.651,0,0,1,11.942,8.657Z" transform="translate(2.511 2.455)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_916" data-name="Path 916" d="M11.285,11a.657.657,0,1,1,0,1.314H8.657a.657.657,0,1,1,0-1.314Z" transform="translate(2.511 3.397)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_917" data-name="Path 917" d="M11.285,14a.657.657,0,0,1,0,1.314H8.657a.657.657,0,0,1,0-1.314Z" transform="translate(2.511 4.338)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_918" data-name="Path 918" d="M6.942,14.657a.651.651,0,0,1-.657.657H3.657a.657.657,0,0,1,0-1.314H6.285A.651.651,0,0,1,6.942,14.657Z" transform="translate(0.942 4.338)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_919" data-name="Path 919" d="M6.285,5a.657.657,0,0,1,0,1.314H3.657A.657.657,0,1,1,3.657,5Z" transform="translate(0.942 1.513)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_920" data-name="Path 920" d="M6.285,8a.657.657,0,0,1,0,1.314H3.657A.657.657,0,1,1,3.657,8Z" transform="translate(0.942 2.455)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_921" data-name="Path 921" d="M6.285,11a.657.657,0,1,1,0,1.314H3.657a.657.657,0,1,1,0-1.314Z" transform="translate(0.942 3.397)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_922" data-name="Path 922" d="M10.57,18.971a.659.659,0,0,0-.657-.657H5.971a.651.651,0,0,0-.657.657v5.913H4V18.971A1.968,1.968,0,0,1,5.971,17H9.913a1.968,1.968,0,0,1,1.971,1.971v5.913H10.57Z" transform="translate(1.256 5.28)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_923" data-name="Path 923" d="M5.314,23h6.57v.657a.651.651,0,0,1-.657.657H4.657A.651.651,0,0,1,4,23.657V23Z" transform="translate(1.256 7.164)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    <path id="Path_924" data-name="Path 924" d="M2.3.206,16.739,2.4a1.964,1.964,0,0,1,1.656,1.945v7.542l-.526-.105a.691.691,0,0,0-.552.131.7.7,0,0,0-.237.512V4.345a.664.664,0,0,0-.552-.657L2.089,1.507a.364.364,0,0,0-.118-.013.62.62,0,0,0-.42.158.628.628,0,0,0-.237.5V29.507a.659.659,0,0,0,.657.657H5.256v.657a.651.651,0,0,0,.657.657H1.971A1.968,1.968,0,0,1,0,29.507V2.151A1.935,1.935,0,0,1,.7.653,1.972,1.972,0,0,1,2.3.206Z" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+  </g>
+</svg>
